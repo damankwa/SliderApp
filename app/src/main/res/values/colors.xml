@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- background colour -->
+    <color name = "bg_screen1_color">#5E104B</color>
+    <color name = "bg_screen2_color">#12073B</color>
+
+    <!-- inactive colors -->
+    <color name = "inactive_for_screen1">#BC7DAC</color>
+    <color name = "inactive_for_screen2">#877CB0</color>
+
+    <!-- active colors -->
+    <color name = "active_for_screen1">#41002C</color>
+    <color name = "active_for_screen2">#12073B</color>
+
+    <array name="array_active">
+        <item>@color/active_for_screen1</item>
+        <item>@color/active_for_screen2</item>
+    </array>
+
+    <array name="array_inactive">
+        <item>@color/inactive_for_screen1</item>
+        <item>@color/inactive_for_screen2</item>
+    </array>
+</resources>
